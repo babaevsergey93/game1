@@ -1,0 +1,59 @@
+
+#start-btn {
+	margin-top: 300px;
+	display: inline-block;
+    padding: 15px 50px;
+    background: #3de0bc;
+	color: #fff;	
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	vertical-align: middle;
+}
+#container {
+	text-align: center;
+}
+#message {
+	display: block;
+}
+#score, #message {
+	font: normal 24px/1 Arial, sans-serif;
+	color: #ccc;
+}
+
+#timer {
+	font: normal 24px/1 Arial, sans-serif;
+	color: #6e6666;
+}
+
+table {
+	width: 100px; /* Ширина таблицы */
+	border: 5px solid #ccc; /* Рамка вокруг таблицы */
+	margin: auto; /* Выравниваем таблицу по центру окна  */
+	border-collapse: collapse;
+	font-size: 0;
+	margin-bottom: 10px;	
+}
+td {
+	text-align: center;
+	border: 1px solid #ccc;	
+}
+
+img {
+	cursor: pointer;
+}
+.hide{
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	opacity: 0;
+}
+.showing{
+	opacity: 1;
+}
+.filtered{	
+	filter: grayscale(90%);
+	transition: filter .3s	
+}
